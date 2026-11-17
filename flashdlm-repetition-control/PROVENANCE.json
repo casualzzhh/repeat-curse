@@ -1,0 +1,40 @@
+{
+  "version": "screenshot-pilot-v9",
+  "original_own_source_sha256": {
+    "backbone.py": "fa25f66b78ecb9b7644f8b715fa839818d7144a02c0517c26e2405cb3a006279",
+    "experiment.py": "a2564dd66bba8de737d2e725e22edf85453061647d2cf26cb31a4341b7e173a6",
+    "finalize.py": "f784a02f6d42072352aabc45fccf4ec801aaf18558c3ef03c4388e36db595e56",
+    "pipeline.py": "2ce84618b3920eeba5e80287be2e24f37cff17d3323de739e09fd8ea727c675c",
+    "repeats.py": "9eafea23df120a16465d31866568800ad174b21b9fc47be276455b853d227495",
+    "report.py": "4cb176aad6c8e3be15988ec07977748291f22d301dce1522bdaeaa1e3b2bc62c",
+    "risk.py": "cfc065a7edf0e296b8b64bc95f8b0b66ea5a0a774a8d01c83c85bea5bd006932",
+    "runtime.py": "5330b6c6f22835619f9c5a66db87b97182f174beafd6da96970e6ae988998f27",
+    "sampling.py": "9bf63c05e870574a3735da2763599397d1d2aad69833606ab307d1785be675a6",
+    "settings.py": "46087f59cbaab149101ae7753cac02abb113ebb9f6402c5b552cb5796b22c283",
+    "show_review.py": "721ce471e6387500c919563a2e3c288b55b0b34b522c158675929e51ab467e3e",
+    "smoke.py": "5d145897e30e7b7b5e9dbf44c043e55be5cc99fc813cfdbff47323b6e0950413",
+    "tests.py": "4f7f421aedf462f2e32a1d01b0f00f0b319e7b4cb5245bb3362d67b712f7678f"
+  },
+  "original_model": {
+    "dream": "Dream-org/Dream-v0-Instruct-7B",
+    "dream_revision": "05334cb9faaf763692dcf9d8737c642be2b2a6ae",
+    "ar": "Qwen/Qwen2.5-1.5B-Instruct",
+    "ar_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "original_environment": {
+    "python": "3.11",
+    "torch": "2.7.0+cu118",
+    "transformers": "4.46.0",
+    "numpy": "1.26.4",
+    "accelerate": "1.3.0",
+    "huggingface_hub": "0.36.2",
+    "safetensors": "0.8.0"
+  },
+  "projection": {
+    "hidden_size": 3584,
+    "dim": 128,
+    "seed": 501,
+    "tensor_sha256": "800c33dc4f6576331c1cd74c26dc22c2e7d66298d25f8aeeac2a322179685df5"
+  },
+  "changes": "Portable configuration, self-contained assets/bridge, safe output directory and documentation; V9 algorithm behavior retained."
+}

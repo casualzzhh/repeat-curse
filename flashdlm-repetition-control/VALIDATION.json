@@ -1,0 +1,22 @@
+{
+  "original_full192_equal": true,
+  "complete_full192_equal": true,
+  "action_choices_equal": true,
+  "action_count": 1,
+  "record_id": "general-binoculars-explain-zh",
+  "model_weights_not_retrained": true,
+  "projection_regeneration_exact": true,
+  "tests_passed": 12,
+  "real_7b_remask_fixture": true,
+  "tested_normalized_source_sha256": {
+    "backbone.py": "fa25f66b78ecb9b7644f8b715fa839818d7144a02c0517c26e2405cb3a006279",
+    "risk.py": "cfc065a7edf0e296b8b64bc95f8b0b66ea5a0a774a8d01c83c85bea5bd006932",
+    "repeats.py": "9eafea23df120a16465d31866568800ad174b21b9fc47be276455b853d227495",
+    "sampling.py": "9bf63c05e870574a3735da2763599397d1d2aad69833606ab307d1785be675a6",
+    "experiment.py": "23aeea82a04fbdad504975de3282031f9e9638743a11c72d3cae291b8d793dec",
+    "runtime.py": "3049d3f941cf42232a6affda1762762d15ab8ebf78b41f2ce59163333a7340e2",
+    "flash_experiment.py": "bf9980a98162980f2b770bacbb13c3b3175c3dde2ca02897e01219c1f55f2675",
+    "settings.py": "88bb999dd3576b5e209cef1b3c74c466960275e659556e47cf3e8b9878a05561",
+    "smoke.py": "e769c03ec473cb83d52d5323d023a2dd877a7e4d6645a44c333d2b30f3032b6e"
+  }
+}
